@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Viboosha Kankaanam | Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="side-nav">
+        <ul>
+            <li class="active"><a href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+            <li><a href="#services"><i class="fas fa-briefcase"></i><span>Services</span></a></li>
+            <li><a href="#journey"><i class="fas fa-route"></i><span>Journey</span></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Name tag removed as requested -->
+                    <h1>Web Developer</h1>
+                    <p>Creating modern websites for businesses and online stores</p>
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-controls">
+                                <span class="control close"></span>
+                                <span class="control minimize"></span>
+                                <span class="control expand"></span>
+                            </div>
+                            <span class="filename">index.js</span>
+                        </div>
+                        <div class="editor-content">
+                            <div class="line"><span class="line-number">1</span><span class="keyword">const</span> <span class="variable">developer</span> = {</div>
+                            <div class="line"><span class="line-number">2</span>  <span class="property">name</span>: <span class="string">'Viboosha Kankaanam'</span>,</div>
+                            <div class="line"><span class="line-number">3</span>  <span class="property">skills</span>: [<span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'Responsive Design'</span>],</div>
+                            <div class="line"><span class="line-number">4</span>  <span class="property">focus</span>: <span class="string">'Business websites'</span></div>
+                            <div class="line"><span class="line-number">5</span>};</div>
+                            <div class="line"><span class="line-number">6</span></div>
+                            <div class="line"><span class="line-number">7</span><span class="keyword">function</span> <span class="function">build</span>() {</div>
+                            <div class="line"><span class="line-number">8</span>  <span class="keyword">return</span> <span class="string">'Professional websites'</span>;</div>
+                            <div class="line"><span class="line-number">9</span>}</div>
+                        </div>
+                    </div>
+                    <!-- CTA button removed as requested -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                
+                <div class="about-content">
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>HTML & CSS</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Responsive Design</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Website Building</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <p>I'm at the beginning of my web development journey, passionate about creating beautiful and functional websites for businesses and online stores.</p>
+                        
+                        <p>I believe in learning by doing. With each project, I'm committed to delivering websites that not only look great but also help businesses achieve their goals. I focus on clean design, user experience, and making sure your website works perfectly on all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Services</h2>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <h3>Business Websites</h3>
+                        <p>Professional, responsive websites designed to showcase your business and attract new customers with clear calls to action.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Online Stores</h3>
+                        <p>Basic e-commerce solutions to help you start selling your products online with secure and easy-to-use shopping features.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile-Friendly Design</h3>
+                        <p>Ensuring your website looks great and functions perfectly on smartphones and tablets, where most customers browse today.</p>
+                    </div>
+                </div>
+                
+                <div class="website-showcase">
+                    <div class="device-mockup">
+                        <div class="device-header"></div>
+                        <div class="device-screen">
+                            <div class="screen-component header"></div>
+                            <div class="screen-component hero"></div>
+                            <div class="screen-component features">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="screen-component content">
+                                <div class="content-col"></div>
+                                <div class="content-img"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="journey">
+            <div class="container">
+                <h2>My Journey</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Learning Fundamentals</h3>
+                            <p>Currently mastering HTML, CSS, and responsive web design through dedicated online courses.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Building Practice Projects</h3>
+                            <p>Creating sample websites to apply what I've learned and develop a stronger understanding of web development.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Ready for Real Projects</h3>
+                            <p>Now seeking my first clients to build professional websites and begin my portfolio with real-world experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-card">
+                        <div class="contact-header">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email Me</h3>
+                        </div>
+                        
+                        <div class="email-display">
+                            <a href="mailto:chethanaabeysinghe95@gmail.com">chethanaabeysinghe95@gmail.com</a>
+                        </div>
+                        
+                        <button id="copy-email" class="btn-primary">
+                            <i class="fas fa-copy"></i> Copy Email Address
+                        </button>
+                        
+                        <div class="contact-note">
+                            <p>As I'm beginning my web development career, I'm offering competitive rates for my first clients. You'll receive dedicated attention and a website built with care.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="work-steps">
+                        <h3>How We'll Work Together</h3>
+                        
+                        <div class="steps-container">
+                            <div class="step-item">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Initial Consultation</h4>
+                                    <p>Send me an email describing your business and website needs</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Design Proposal</h4>
+                                    <p>I'll share design concepts based on your requirements</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Website Creation</h4>
+                                    <p>Once approved, I'll build your website with ongoing updates</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Launch & Support</h4>
+                                    <p>Your website goes live with my continued support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Viboosha Kankaanam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
